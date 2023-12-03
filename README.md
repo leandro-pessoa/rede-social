@@ -17,7 +17,54 @@ Dentre as funcionalidades estão:
 
 ## ⬇️ Download do projeto
 
-O projeto pode ser baixado clicando <a href='' download>aqui</a>
+O projeto pode ser baixado clicando <a href='https://github.com/leandro-pessoa/rede-social/archive/refs/heads/main.zip' download>aqui</a>
+
+## 🛠️ Executando o projeto
+
+Realize os seguintes passos:
+
+- Primeiramente, abra o mongo shell e execute o comando:
+~~~~
+mongod
+~~~~
+- Abra o terminal na pasta backend e digite:
+~~~~
+node db
+~~~~
+- No mongoshell, use o banco de dados rede-social que foi criado:
+~~~~
+use rede-social
+~~~~
+- Na pasta backend, rode para abrir o servidor:
+~~~~
+node index
+~~~~
+- Na pasta frontend/react, execute:
+~~~~
+npm run dev
+~~~~
+
+Caso algum desses passos ocasionou algum erro ou não deu certo, reporte nas issues.
+
+## ⚛️ Tecnologias utilizadas
+
+Dentre as tecnologias utilizadas, as principais foram:
+
+- `React`
+- `Typescript`
+- `Redux`
+- `Styled-components`
+- `MongoDB`
+- `Mongoose`
+- `Axios`
+
+## :hurtrealbad: Desenvolvedor
+
+Desenvolvido por [Leandro Pessoa](https://github.com/leandro-pessoa)
+
+
+
+
 
 
 
